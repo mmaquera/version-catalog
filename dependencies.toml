@@ -1,0 +1,5 @@
+[versions]
+appcompat = "1.5.1"
+
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
