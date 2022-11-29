@@ -1,5 +1,9 @@
 [versions]
 appcompat = "1.5.1"
+version-catalog-plugin = "0.0.1"
 
 [libraries]
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+
+[plugins]
+mbbk = { id = "com.mmaquera", version.ref = "version-catalog-plugin" }
